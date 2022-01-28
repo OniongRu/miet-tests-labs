@@ -19,8 +19,8 @@ namespace SeleniumTestChrome
             WebElement username = (WebElement)driver.FindElement(By.Id("loginform-login"));
             WebElement password = (WebElement)driver.FindElement(By.Id("loginform-password"));
             WebElement authorization = (WebElement)driver.FindElement(By.Id("loginbut"));
-            username.SendKeys("8181033");
-            password.SendKeys("mem123");
+            username.SendKeys("xxx");
+            password.SendKeys("xxx");
             authorization.Click();
             Thread.Sleep(1000);
             //_ = driver.Manage().Timeouts().ImplicitWait;
