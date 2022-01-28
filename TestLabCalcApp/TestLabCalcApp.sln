@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLabCalcApp", "TestLabCalcApp.csproj", "{BCC2B443-7F87-4DB9-BB5D-545BA0055E91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLabCalcApp.Tests", "..\TestLabCalcApp.Tests\TestLabCalcApp.Tests.csproj", "{03097A81-57C7-4BA8-9C87-7F6407B820DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhiteTest", "..\WhiteTest\WhiteTest.csproj", "{A7F5880D-389B-4A8D-B95C-50B3F917A414}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumTestChrome", "..\SeleniumTestChrome\SeleniumTestChrome.csproj", "{EBBD6C24-6A91-432B-8B2A-5FC34868DCAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeywordDrivenTestingCalc", "..\KeywordDrivenTestingCalc\KeywordDrivenTestingCalc.csproj", "{2E33A35D-B1A0-40CA-A35B-923FCB044372}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCC2B443-7F87-4DB9-BB5D-545BA0055E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC2B443-7F87-4DB9-BB5D-545BA0055E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC2B443-7F87-4DB9-BB5D-545BA0055E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC2B443-7F87-4DB9-BB5D-545BA0055E91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03097A81-57C7-4BA8-9C87-7F6407B820DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03097A81-57C7-4BA8-9C87-7F6407B820DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03097A81-57C7-4BA8-9C87-7F6407B820DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03097A81-57C7-4BA8-9C87-7F6407B820DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F5880D-389B-4A8D-B95C-50B3F917A414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F5880D-389B-4A8D-B95C-50B3F917A414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F5880D-389B-4A8D-B95C-50B3F917A414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F5880D-389B-4A8D-B95C-50B3F917A414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBBD6C24-6A91-432B-8B2A-5FC34868DCAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBBD6C24-6A91-432B-8B2A-5FC34868DCAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBBD6C24-6A91-432B-8B2A-5FC34868DCAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBBD6C24-6A91-432B-8B2A-5FC34868DCAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E33A35D-B1A0-40CA-A35B-923FCB044372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E33A35D-B1A0-40CA-A35B-923FCB044372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E33A35D-B1A0-40CA-A35B-923FCB044372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E33A35D-B1A0-40CA-A35B-923FCB044372}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {168544CB-A8BF-41F5-A421-9F29F321E533}
+	EndGlobalSection
+EndGlobal
